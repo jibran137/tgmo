@@ -1,0 +1,95 @@
+body{
+    margin: 10;
+    padding: 10;
+    background: #262626 ;
+    font-family: sans-serif;
+}
+
+.dp{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.content{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h3 {
+    color: gold;
+    text-align: left;
+}
+
+.content h4 {
+    color: gold;
+    text-align: left;
+}
+
+.content p{
+    color: whitesmoke;
+    text-align: left;
+}
+
+.content ul{
+    color: whitesmoke;
+    text-align: left;
+}
+
+.box
+{
+    position: relative;
+    width: 188px;
+    height: 280px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.box .imgbox img{
+    max-width: 100%;
+    transition: transform 3s;
+}
+.box:hover .imgbox img{
+    transform: scale(1.1);
+}
+.box .details{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.box:hover .details{
+    transform: scaleY(1);
+}
+.box .details .content{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 15px;
+    color: #fff;
+}
+.box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}
+.box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}

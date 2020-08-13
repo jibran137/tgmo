@@ -1,0 +1,40 @@
+body{
+    margin: 10;
+    padding: 10;
+    background: #262626 ;
+    font-family: sans-serif;
+}
+
+.dp{
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    border: 5px solid whitesmoke;
+}
+
+.content{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h3 {
+    color: gold;
+    text-align: left;
+}
+
+.content h4 {
+    color: gold;
+    text-align: left;
+}
+
+.content p{
+    color: whitesmoke;
+    text-align: left;
+}
+
+.content ul{
+    color: whitesmoke;
+    text-align: left;
+}
